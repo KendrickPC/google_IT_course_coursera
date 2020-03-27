@@ -1,5 +1,3 @@
-# Please change something with the GITHUB... PRETTY PRETTY PLEASE.
-
 #!/usr/bin/env python3
 
 import os
@@ -7,7 +5,7 @@ import sys
 
 def check_reboot():
     '''Returns TRUe if the computer has a pending reboot.'''
-    return os.path.exist("/run/reboot-required")
+    return os.path.exists("/run/reboot-required")
 
 def main():
     if check_reboot():
