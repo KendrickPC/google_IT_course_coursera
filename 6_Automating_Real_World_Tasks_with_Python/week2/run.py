@@ -38,7 +38,7 @@ for file in filenames:
         # You can also use the response status_code 201 for created success status response
         # code that indicates the request has succeeded.
         if response.status_code == 201:
-            print("victory! " file + " posting successful.")
+            print("victory! " + file + " posting successful.")
         # Make sure an error message isn't returned. You can print the status_code and text
         # of the response objects to check out what's going on.
         else:
